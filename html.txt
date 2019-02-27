@@ -1,0 +1,31 @@
+<form action="#" class="login">
+<input type="text" name="" placeholder="Login" required>
+<input type="password" name="" placeholder="password" required>
+<input type="submit" name="" value="Sign in">
+</form>
+
+
+
+
+.login{
+	padding: 15px 0;
+	float: right;
+}
+.login input[type="text"],
+.login input[type="password"] {
+	padding: 5px;
+	margin-right: 5px;
+	border:1px solid transparent;
+	border-radius: 5px;
+	outline: none;	 
+}
+.login input[type="submit"] {
+	padding: 5px 15px;
+	border:1px solid lightgrey;
+	border-radius: 5px;
+}
+.login input[type="submit"]:hover,
+button:hover {
+	background-color: darkgrey;
+	color: white;
+}
